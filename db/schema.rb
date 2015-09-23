@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20150923124756) do
   create_table "funds", force: :cascade do |t|
     t.string   "name"
     t.string   "address"
+    t.string   "city"
+    t.string   "zip"
     t.string   "phone"
     t.string   "email"
     t.datetime "created_at", null: false
