@@ -12,6 +12,10 @@ class FundsController < ApplicationController
     redirect_to root_path
   end
 
+  def show
+    
+  end
+
   private
 
   def fund_params
